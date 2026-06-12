@@ -1,0 +1,156 @@
+{
+  "package_name": "xiaojiao_art_teacher_pre_class_workbench_static_layout_mock_1000E1",
+  "stage_code": "1000E1_ART_TEACHER_PRE_CLASS_WORKBENCH_STATIC_LAYOUT_MOCK",
+  "final_status": "XIAOJIAO_ART_TEACHER_PRE_CLASS_WORKBENCH_STATIC_LAYOUT_MOCK_PASS",
+  "generated_at": "2026-06-12T18:39:52+08:00",
+  "zip_path": "docs/audit_packages/xiaojiao_art_teacher_pre_class_workbench_static_layout_mock_1000E1.zip",
+  "zip_entry_count": 20,
+  "manifest_minus_zip": [],
+  "zip_minus_manifest": [],
+  "zip_entries": [
+    "docs/foundation/xiaojiao_art_teacher_pre_class_workbench_implementation_blueprint_1000E0.json",
+    "docs/audit/xiaojiao_art_teacher_pre_class_workbench_implementation_blueprint_1000E0_result.json",
+    "docs/foundation/xiaojiao_art_teacher_pre_class_workbench_static_layout_mock_1000E1.md",
+    "docs/foundation/xiaojiao_art_teacher_pre_class_workbench_static_layout_mock_1000E1.json",
+    "docs/audit/xiaojiao_art_teacher_pre_class_workbench_static_layout_mock_1000E1_report.md",
+    "docs/audit/xiaojiao_art_teacher_pre_class_workbench_static_layout_mock_1000E1_result.json",
+    "docs/audit/xiaojiao_art_teacher_pre_class_workbench_static_layout_mock_1000E1_checklist.json",
+    "docs/audit_packages/xiaojiao_art_teacher_pre_class_workbench_static_layout_mock_1000E1_manifest.json",
+    "scripts/validate_xiaojiao_art_teacher_pre_class_workbench_static_layout_mock_1000E1.py",
+    "scripts/visual_smoke_xiaojiao_art_teacher_pre_class_workbench_static_layout_mock_1000E1.js",
+    "samples/xiaojiao_art_teacher_pre_class_workbench_static_layout_mock_1000E1/sample_index_1000E1.json",
+    "samples/xiaojiao_art_teacher_pre_class_workbench_static_layout_mock_1000E1/layout_contract_1000E1.json",
+    "samples/xiaojiao_art_teacher_pre_class_workbench_static_layout_mock_1000E1/xiaojiao_static_layout_1000E1.css",
+    "samples/xiaojiao_art_teacher_pre_class_workbench_static_layout_mock_1000E1/first_run_onboarding_1000E1.html",
+    "samples/xiaojiao_art_teacher_pre_class_workbench_static_layout_mock_1000E1/initialized_workbench_home_1000E1.html",
+    "docs/audit/visual_smoke/xiaojiao_art_teacher_pre_class_workbench_static_layout_mock_1000E1_summary.json",
+    "docs/audit/screenshots/xiaojiao_art_teacher_pre_class_workbench_static_layout_mock_1000E1/first_run_onboarding_desktop.png",
+    "docs/audit/screenshots/xiaojiao_art_teacher_pre_class_workbench_static_layout_mock_1000E1/first_run_onboarding_mobile.png",
+    "docs/audit/screenshots/xiaojiao_art_teacher_pre_class_workbench_static_layout_mock_1000E1/initialized_workbench_home_desktop.png",
+    "docs/audit/screenshots/xiaojiao_art_teacher_pre_class_workbench_static_layout_mock_1000E1/initialized_workbench_home_mobile.png"
+  ],
+  "entries": [
+    {
+      "path": "docs/foundation/xiaojiao_art_teacher_pre_class_workbench_implementation_blueprint_1000E0.json",
+      "size": 23392,
+      "sha256": "3532AE1034CB99AD1D94FCFD8B2ED131C18AB18B754A7B0EA9D60EBC65CF7C4D"
+    },
+    {
+      "path": "docs/audit/xiaojiao_art_teacher_pre_class_workbench_implementation_blueprint_1000E0_result.json",
+      "size": 1998,
+      "sha256": "A6C3C817ECE21D25A1E57E799B3227EF3B159338436CAC6B4B8DDD9B92C041E5"
+    },
+    {
+      "path": "docs/foundation/xiaojiao_art_teacher_pre_class_workbench_static_layout_mock_1000E1.md",
+      "size": 2401,
+      "sha256": "5ED08C2C834A56FA1DA26E26127A35E2B8E2438F52C5F1495C9ED2615768082F"
+    },
+    {
+      "path": "docs/foundation/xiaojiao_art_teacher_pre_class_workbench_static_layout_mock_1000E1.json",
+      "size": 5380,
+      "sha256": "CB3EDB7F778004673A3180645EA652482E40B6C81095F6D16EC30ADFD526F6B1"
+    },
+    {
+      "path": "docs/audit/xiaojiao_art_teacher_pre_class_workbench_static_layout_mock_1000E1_report.md",
+      "size": 1150,
+      "sha256": "29E73E5E183D38E622B6908075333BDE847B34BB9FFEC8BC9F2E62EA977E766B"
+    },
+    {
+      "path": "docs/audit/xiaojiao_art_teacher_pre_class_workbench_static_layout_mock_1000E1_result.json",
+      "size": 1748,
+      "sha256": "BF3A8F8B7CDCA9118B21B3E2924A819FC12ECB827359E9B47AD5E2B3DD56D704"
+    },
+    {
+      "path": "docs/audit/xiaojiao_art_teacher_pre_class_workbench_static_layout_mock_1000E1_checklist.json",
+      "size": 1784,
+      "sha256": "13A449C74021C04852BB48D2DC04B980A2A2A33F372F74CBF0F4B843B798FFD9"
+    },
+    {
+      "path": "docs/audit_packages/xiaojiao_art_teacher_pre_class_workbench_static_layout_mock_1000E1_manifest.json",
+      "size": null,
+      "sha256": "SELF_REFERENTIAL"
+    },
+    {
+      "path": "scripts/validate_xiaojiao_art_teacher_pre_class_workbench_static_layout_mock_1000E1.py",
+      "size": 8030,
+      "sha256": "72CB8C07042584B2936F472F92C3077BE57C314503200C535AF185D8B4EF0AA9"
+    },
+    {
+      "path": "scripts/visual_smoke_xiaojiao_art_teacher_pre_class_workbench_static_layout_mock_1000E1.js",
+      "size": 2910,
+      "sha256": "3FDE45C619E03187EFEEA5EFC8C0BAB7030E7A64D271A8C71D163BBB55EE9AA0"
+    },
+    {
+      "path": "samples/xiaojiao_art_teacher_pre_class_workbench_static_layout_mock_1000E1/sample_index_1000E1.json",
+      "size": 1007,
+      "sha256": "76195F940A2AE4260F8D69FFD9B98BE5C51CFE669E0AC611C08B7A42470A4B1C"
+    },
+    {
+      "path": "samples/xiaojiao_art_teacher_pre_class_workbench_static_layout_mock_1000E1/layout_contract_1000E1.json",
+      "size": 5380,
+      "sha256": "CB3EDB7F778004673A3180645EA652482E40B6C81095F6D16EC30ADFD526F6B1"
+    },
+    {
+      "path": "samples/xiaojiao_art_teacher_pre_class_workbench_static_layout_mock_1000E1/xiaojiao_static_layout_1000E1.css",
+      "size": 4501,
+      "sha256": "253BDA1F67B671609EF9B4207F6324E0618EE588C3AA77B58748D313AFCC19AE"
+    },
+    {
+      "path": "samples/xiaojiao_art_teacher_pre_class_workbench_static_layout_mock_1000E1/first_run_onboarding_1000E1.html",
+      "size": 5228,
+      "sha256": "218829A3303DCD2E2890D972D6DF3CEFF7DCEE6A3337980B6AADAA714911DADC"
+    },
+    {
+      "path": "samples/xiaojiao_art_teacher_pre_class_workbench_static_layout_mock_1000E1/initialized_workbench_home_1000E1.html",
+      "size": 4753,
+      "sha256": "12505269957A25C9C0EBE75CFFCF6A1CCCEC63E060332C53D5D82B044DB499AD"
+    },
+    {
+      "path": "docs/audit/visual_smoke/xiaojiao_art_teacher_pre_class_workbench_static_layout_mock_1000E1_summary.json",
+      "size": 1369,
+      "sha256": "0A9A5EBC12AF6C800934DF10E93EED6DA84BEF6E274C5BAF7FCE57CA6E000F63"
+    },
+    {
+      "path": "docs/audit/screenshots/xiaojiao_art_teacher_pre_class_workbench_static_layout_mock_1000E1/first_run_onboarding_desktop.png",
+      "size": 138789,
+      "sha256": "40FD9D6A2F3E0B4C7C77378AF46D603A8BCFEB6555818BE0F25DA1E79AE2B488"
+    },
+    {
+      "path": "docs/audit/screenshots/xiaojiao_art_teacher_pre_class_workbench_static_layout_mock_1000E1/first_run_onboarding_mobile.png",
+      "size": 68317,
+      "sha256": "C1590176E2417CA4C6BD51088167BE1105415A9D347CEC0210E2DB7CF4F0FE34"
+    },
+    {
+      "path": "docs/audit/screenshots/xiaojiao_art_teacher_pre_class_workbench_static_layout_mock_1000E1/initialized_workbench_home_desktop.png",
+      "size": 117352,
+      "sha256": "89283181146830EBC4F433A40DDF51F340669AEC0103EF93B26E9E75C23F6428"
+    },
+    {
+      "path": "docs/audit/screenshots/xiaojiao_art_teacher_pre_class_workbench_static_layout_mock_1000E1/initialized_workbench_home_mobile.png",
+      "size": 73244,
+      "sha256": "9C49F0D02EBE9D722860C32893A672CE120515352AFF805A60F6DA6033642DF5"
+    },
+    {
+      "path": "docs/audit_packages/xiaojiao_art_teacher_pre_class_workbench_static_layout_mock_1000E1.zip",
+      "size": 409860,
+      "sha256": "A734CD33FE1730672C3FFB881370A24D17DBC105FF9652F246211DFC32629393",
+      "zip_membership": "not included inside itself"
+    }
+  ],
+  "boundary": {
+    "database_written": false,
+    "memory_written": false,
+    "feishu_written": false,
+    "formal_export_created": false,
+    "classroom_student_runtime_connected": false,
+    "provider_called": false,
+    "frontend_runtime_modified": false,
+    "backend_runtime_modified": false,
+    "old_sealed_stage_modified": false,
+    "full_repo_blind_rename_performed": false,
+    "teacher_facing_jarvis_wording_introduced": false,
+    "teacher_facing_xiaobei_wording_introduced": false,
+    "entered_1000E2": false,
+    "entered_1000F": false
+  }
+}

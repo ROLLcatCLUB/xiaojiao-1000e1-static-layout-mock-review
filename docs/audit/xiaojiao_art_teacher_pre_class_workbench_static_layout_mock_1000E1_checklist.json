@@ -1,0 +1,89 @@
+{
+  "stage_code": "1000E1_ART_TEACHER_PRE_CLASS_WORKBENCH_STATIC_LAYOUT_MOCK",
+  "items": [
+    {
+      "label": "stage identity",
+      "pass": true
+    },
+    {
+      "label": "E0 sufficiency caveat absorbed",
+      "pass": true
+    },
+    {
+      "label": "first-run onboarding state",
+      "pass": true
+    },
+    {
+      "label": "initialized workbench state",
+      "pass": true
+    },
+    {
+      "label": "initialization sufficiency gate",
+      "pass": true
+    },
+    {
+      "label": "artifact draft sufficiency gate",
+      "pass": true
+    },
+    {
+      "label": "precision generation gate",
+      "pass": true
+    },
+    {
+      "label": "teaching work plan draft allowed with review gaps",
+      "pass": true
+    },
+    {
+      "label": "main work area priority",
+      "pass": true
+    },
+    {
+      "label": "lightweight Xiaojiao suggestion strip",
+      "pass": true
+    },
+    {
+      "label": "no large default chat history",
+      "pass": true
+    },
+    {
+      "label": "dynamic panels not fixed dead cards",
+      "pass": true
+    },
+    {
+      "label": "work record drawer secondary",
+      "pass": true
+    },
+    {
+      "label": "weekly work graph does not replace semester weekly calendar",
+      "pass": true
+    },
+    {
+      "label": "desktop screenshots",
+      "pass": true
+    },
+    {
+      "label": "mobile screenshots",
+      "pass": true
+    },
+    {
+      "label": "no real frontend modification",
+      "pass": true
+    },
+    {
+      "label": "no runtime connection",
+      "pass": true
+    },
+    {
+      "label": "no provider/model call",
+      "pass": true
+    },
+    {
+      "label": "no database/memory/Feishu/formal export",
+      "pass": true
+    },
+    {
+      "label": "manifest / ZIP alignment",
+      "pass": true
+    }
+  ]
+}

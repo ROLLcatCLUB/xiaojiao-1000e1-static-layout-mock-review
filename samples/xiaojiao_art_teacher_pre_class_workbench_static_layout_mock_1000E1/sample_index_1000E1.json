@@ -1,0 +1,14 @@
+{
+  "stage_code": "1000E1_ART_TEACHER_PRE_CLASS_WORKBENCH_STATIC_LAYOUT_MOCK",
+  "pages": [
+    "samples/xiaojiao_art_teacher_pre_class_workbench_static_layout_mock_1000E1/first_run_onboarding_1000E1.html",
+    "samples/xiaojiao_art_teacher_pre_class_workbench_static_layout_mock_1000E1/initialized_workbench_home_1000E1.html"
+  ],
+  "css": "samples/xiaojiao_art_teacher_pre_class_workbench_static_layout_mock_1000E1/xiaojiao_static_layout_1000E1.css",
+  "screenshots": [
+    "docs/audit/screenshots/xiaojiao_art_teacher_pre_class_workbench_static_layout_mock_1000E1/first_run_onboarding_desktop.png",
+    "docs/audit/screenshots/xiaojiao_art_teacher_pre_class_workbench_static_layout_mock_1000E1/first_run_onboarding_mobile.png",
+    "docs/audit/screenshots/xiaojiao_art_teacher_pre_class_workbench_static_layout_mock_1000E1/initialized_workbench_home_desktop.png",
+    "docs/audit/screenshots/xiaojiao_art_teacher_pre_class_workbench_static_layout_mock_1000E1/initialized_workbench_home_mobile.png"
+  ]
+}

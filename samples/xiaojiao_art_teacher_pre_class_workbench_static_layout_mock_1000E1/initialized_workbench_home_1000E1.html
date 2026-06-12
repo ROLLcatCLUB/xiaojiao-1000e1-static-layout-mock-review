@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>1000E1 小教已初始化工作台首页</title>
+  <link rel="stylesheet" href="xiaojiao_static_layout_1000E1.css">
+</head>
+<body data-page-id="initialized_workbench_home" data-stage="1000E1">
+  <main class="shell">
+    <header class="topbar">
+      <div class="brand">小教教师工作台</div>
+      <span class="state-pill">已初始化 · 三年级/四年级/五年级美术</span>
+      <span class="no-chat-box">小教建议会贴近当前工作对象出现</span>
+    </header>
+    <section class="workspace" aria-label="已初始化教师动态工作台首页">
+      <aside class="rail" aria-label="工作对象导航">
+        <h2>本周工作空间</h2>
+        <p class="subtle">主工作区优先展示当前工作对象，支撑表作为关联对象进入动态面板。</p>
+        <div class="step-list">
+          <div class="step"><span class="badge">主</span><div><strong>教学工作计划</strong><span class="subtle">草稿可生成，教材目录待复核</span></div></div>
+          <div class="step"><span class="badge">周</span><div><strong>周工作图谱</strong><span class="subtle">不替代学期周历表</span></div></div>
+          <div class="step"><span class="badge">今</span><div><strong>今日工作项</strong><span class="subtle">按可行动性排序</span></div></div>
+        </div>
+      </aside>
+      <section class="main">
+        <section class="guide">
+          <h1>小教：基础信息已完成，可以先生成教学工作计划草稿</h1>
+          <p class="subtle">教材目录和完整校历还没补齐，相关部分会标记“待复核”，不会硬阻塞主文档草稿。</p>
+          <div class="guide-row">
+            <span class="action primary">生成教学工作计划草稿</span>
+            <span class="action">补教材目录</span>
+            <span class="action">查看待复核项</span>
+          </div>
+        </section>
+        <section class="panel-grid">
+          <div class="dynamic-panels">
+            <article class="panel">
+              <div class="panel-header">
+                <h2>教学工作计划动态面板</h2>
+                <span class="mode">draft_ready</span>
+              </div>
+              <div class="field-grid">
+                <div class="field"><b>blocking_required</b><span class="subtle">身份、学科、学期、任教范围已完成</span></div>
+                <div class="field"><b>soft_required</b><span class="subtle">教材目录 / 校历待复核</span></div>
+                <div class="field"><b>available_actions</b><span class="subtle">生成草稿、补信息、查看缺口</span></div>
+              </div>
+              <div class="suggestion"><span class="dot"></span><div><b>草稿门已通过</b><br><span class="subtle">可先生成草稿，教材目录/校历待复核。</span></div></div>
+            </article>
+            <article class="panel">
+              <div class="panel-header">
+                <h2>周工作图谱动态面板</h2>
+                <span class="mode warn">waiting_calendar_alignment</span>
+              </div>
+              <ul class="mini-list">
+                <li>依赖：教学工作计划草稿、学期周历表框架</li>
+                <li>显示：本周教什么、备什么、评什么、交什么</li>
+                <li>边界：不替代学期周历表</li>
+              </ul>
+            </article>
+          </div>
+          <aside class="panel">
+            <div class="panel-header">
+              <h2>今日工作项</h2>
+              <span class="mode">preview</span>
+            </div>
+            <div class="gate">
+              <div class="gate-item blocking"><b>先做</b><p class="subtle">确认三年级本周课题。</p></div>
+              <div class="gate-item recommended"><b>随后</b><p class="subtle">补充创艺节活动周信息。</p></div>
+              <div class="gate-item precision"><b>可延后</b><p class="subtle">上传完整教材目录。</p></div>
+            </div>
+          </aside>
+        </section>
+      </section>
+      <aside class="drawer" aria-label="工作记录抽屉">
+        <h2>工作记录</h2>
+        <div class="record"><b>基础信息完成</b><p class="subtle">小学美术教师，三至五年级，第二学期。</p></div>
+        <div class="record"><b>草稿门通过</b><p class="subtle">可生成教学工作计划草稿，精确信息待补。</p></div>
+        <div class="record"><b>下一步</b><p class="subtle">补齐精确信息后，再检查周历和课时安排。</p></div>
+      </aside>
+    </section>
+  </main>
+</body>
+</html>

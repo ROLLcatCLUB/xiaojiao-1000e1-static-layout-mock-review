@@ -1,0 +1,129 @@
+{
+  "package_code": "1000_XIAOJIAO_TEACHER_JARVIS_WORKBENCH_PLANNING_PACKAGE",
+  "stage_code": "1000E1_ART_TEACHER_PRE_CLASS_WORKBENCH_STATIC_LAYOUT_MOCK",
+  "stage_name": "Art Teacher Pre-Class Workbench Static Layout Mock",
+  "stage_type": "static_layout_mock_only",
+  "final_status_target": "XIAOJIAO_ART_TEACHER_PRE_CLASS_WORKBENCH_STATIC_LAYOUT_MOCK_PASS",
+  "source_files": [
+    "docs/foundation/xiaojiao_art_teacher_pre_class_workbench_implementation_blueprint_1000E0.json",
+    "docs/audit/xiaojiao_art_teacher_pre_class_workbench_implementation_blueprint_1000E0_result.json"
+  ],
+  "source_review_status": "1000E0_PASS_WITH_SUFFICIENCY_CAVEAT",
+  "scope": {
+    "static_layout_mock_only": true,
+    "real_ui_implementation": false,
+    "runtime_connection": false,
+    "provider_call": false,
+    "database_write": false,
+    "memory_write": false,
+    "feishu_write": false,
+    "formal_export": false
+  },
+  "layout_states": [
+    {
+      "state_id": "first_run_onboarding",
+      "title": "小教引导式工作台初始化",
+      "purpose": "When blocking profile information is missing, Xiaojiao leads a compact setup flow instead of showing blank panels or a large chat box.",
+      "primary_regions": [
+        "xiaojiao_guidance_strip",
+        "initialization_step_panel",
+        "setup_progress_rail",
+        "preview_workspace_seed"
+      ]
+    },
+    {
+      "state_id": "initialized_workbench_home",
+      "title": "已初始化教师动态工作台首页",
+      "purpose": "After core initialization, the main workspace unfolds with teaching work plan, weekly work graph, today work items, Xiaojiao suggestion strip, and work record drawer.",
+      "primary_regions": [
+        "main_work_area",
+        "dynamic_panel_cluster",
+        "xiaojiao_suggestion_strip",
+        "today_action_column",
+        "work_record_drawer"
+      ]
+    }
+  ],
+  "sufficiency_gates": {
+    "initialization_sufficiency_gate": {
+      "purpose": "Decide whether the full workbench can unfold.",
+      "blocking_required": [
+        "role_profile",
+        "subject",
+        "semester",
+        "grade_or_class_scope"
+      ],
+      "recommended_required": [
+        "weekly_lessons",
+        "class_count",
+        "school_calendar",
+        "activity_week",
+        "textbook_version"
+      ],
+      "precision_required": [
+        "textbook_catalog",
+        "unit_sequence",
+        "lesson_topic_list",
+        "assessment_requirements",
+        "public_lesson_schedule",
+        "student_work_records"
+      ]
+    },
+    "artifact_draft_sufficiency_gate": {
+      "purpose": "Decide whether a teaching work plan draft can be shown.",
+      "rule": "Basic initialization is enough for a usable draft; textbook catalog and school calendar gaps become review notes, not hard blockers.",
+      "draft_allowed_when": [
+        "role_profile",
+        "subject",
+        "semester",
+        "grade_or_class_scope"
+      ],
+      "soft_gap_message": "可先生成草稿，教材目录/校历待复核"
+    },
+    "precision_generation_gate": {
+      "purpose": "Decide whether precise calendar, unit sequence, and lesson allocation can be generated.",
+      "precision_required": [
+        "textbook_catalog",
+        "school_calendar",
+        "unit_sequence",
+        "lesson_topic_list"
+      ]
+    }
+  },
+  "static_pages": {
+    "first_run_onboarding": "samples/xiaojiao_art_teacher_pre_class_workbench_static_layout_mock_1000E1/first_run_onboarding_1000E1.html",
+    "initialized_workbench_home": "samples/xiaojiao_art_teacher_pre_class_workbench_static_layout_mock_1000E1/initialized_workbench_home_1000E1.html"
+  },
+  "layout_requirements": [
+    "first-run onboarding must appear before full workbench when blocking info is missing",
+    "initialized workbench must prioritize the main work area",
+    "Xiaojiao suggestion strip must be lightweight and not a large chat history",
+    "Dynamic panels must not look like fixed dead cards",
+    "teaching work plan panel must show draft allowed with textbook/calendar review gaps",
+    "weekly work graph must not replace semester weekly calendar",
+    "work record drawer must be present but secondary"
+  ],
+  "screenshots": [
+    "docs/audit/screenshots/xiaojiao_art_teacher_pre_class_workbench_static_layout_mock_1000E1/first_run_onboarding_desktop.png",
+    "docs/audit/screenshots/xiaojiao_art_teacher_pre_class_workbench_static_layout_mock_1000E1/first_run_onboarding_mobile.png",
+    "docs/audit/screenshots/xiaojiao_art_teacher_pre_class_workbench_static_layout_mock_1000E1/initialized_workbench_home_desktop.png",
+    "docs/audit/screenshots/xiaojiao_art_teacher_pre_class_workbench_static_layout_mock_1000E1/initialized_workbench_home_mobile.png"
+  ],
+  "next_stage": "1000E2_WORK_STATE_TO_DYNAMIC_PANEL_RENDERING_PENDING_REVIEW",
+  "boundary_flags_required": {
+    "database_written": false,
+    "memory_written": false,
+    "feishu_written": false,
+    "formal_export_created": false,
+    "classroom_student_runtime_connected": false,
+    "provider_called": false,
+    "frontend_runtime_modified": false,
+    "backend_runtime_modified": false,
+    "old_sealed_stage_modified": false,
+    "full_repo_blind_rename_performed": false,
+    "teacher_facing_jarvis_wording_introduced": false,
+    "teacher_facing_xiaobei_wording_introduced": false,
+    "entered_1000E2": false,
+    "entered_1000F": false
+  }
+}

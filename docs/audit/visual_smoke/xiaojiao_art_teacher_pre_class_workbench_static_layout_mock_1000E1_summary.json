@@ -1,0 +1,40 @@
+{
+  "stage_code": "1000E1_ART_TEACHER_PRE_CLASS_WORKBENCH_STATIC_LAYOUT_MOCK",
+  "visual_smoke_completed": true,
+  "real_frontend_modified": false,
+  "runtime_connected": false,
+  "screenshots": [
+    {
+      "page_id": "first_run_onboarding",
+      "viewport": "desktop",
+      "path": "docs/audit/screenshots/xiaojiao_art_teacher_pre_class_workbench_static_layout_mock_1000E1/first_run_onboarding_desktop.png",
+      "width": 1440,
+      "height": 1100,
+      "bytes": 138789
+    },
+    {
+      "page_id": "first_run_onboarding",
+      "viewport": "mobile",
+      "path": "docs/audit/screenshots/xiaojiao_art_teacher_pre_class_workbench_static_layout_mock_1000E1/first_run_onboarding_mobile.png",
+      "width": 390,
+      "height": 1100,
+      "bytes": 68317
+    },
+    {
+      "page_id": "initialized_workbench_home",
+      "viewport": "desktop",
+      "path": "docs/audit/screenshots/xiaojiao_art_teacher_pre_class_workbench_static_layout_mock_1000E1/initialized_workbench_home_desktop.png",
+      "width": 1440,
+      "height": 1100,
+      "bytes": 117352
+    },
+    {
+      "page_id": "initialized_workbench_home",
+      "viewport": "mobile",
+      "path": "docs/audit/screenshots/xiaojiao_art_teacher_pre_class_workbench_static_layout_mock_1000E1/initialized_workbench_home_mobile.png",
+      "width": 390,
+      "height": 1100,
+      "bytes": 73244
+    }
+  ]
+}

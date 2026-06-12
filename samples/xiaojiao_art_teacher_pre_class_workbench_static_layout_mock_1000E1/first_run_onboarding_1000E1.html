@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>1000E1 小教工作台初始化态</title>
+  <link rel="stylesheet" href="xiaojiao_static_layout_1000E1.css">
+</head>
+<body data-page-id="first_run_onboarding" data-stage="1000E1">
+  <main class="shell">
+    <header class="topbar">
+      <div class="brand">小教教师工作台</div>
+      <span class="state-pill">首次进入 · 工作台初始化</span>
+      <span class="no-chat-box">小教按步骤帮你建立本学期工作空间</span>
+    </header>
+    <section class="workspace" aria-label="小教引导式工作台初始化">
+      <aside class="rail" aria-label="初始化步骤">
+        <h2>3 分钟建立本学期工作空间</h2>
+        <p class="subtle">小教先确认能展开工作台的基础信息，再把计划、周图谱和今日事项逐步展开。</p>
+        <div class="step-list">
+          <div class="step"><span class="badge">1</span><div><strong>身份与角色</strong><span class="subtle">小学美术教师</span></div></div>
+          <div class="step"><span class="badge">2</span><div><strong>学科与年级</strong><span class="subtle">三年级、四年级、五年级</span></div></div>
+          <div class="step"><span class="badge">3</span><div><strong>学期与课务</strong><span class="subtle">2025-2026 第二学期，每班每周 1 节</span></div></div>
+          <div class="step"><span class="badge">4</span><div><strong>教材与活动</strong><span class="subtle">可稍后补，影响精细生成</span></div></div>
+          <div class="step"><span class="badge">5</span><div><strong>生成工作台</strong><span class="subtle">展开动态面板</span></div></div>
+        </div>
+      </aside>
+      <section class="main">
+        <section class="guide">
+          <h1>小教：我先帮你建立本学期教师工作台</h1>
+          <p class="subtle">这些信息会决定后面自动生成哪些计划、周任务和备课提醒。你可以先完成基础信息，教材目录和校历后续补充。</p>
+          <div class="guide-row">
+            <span class="choice">小学美术教师</span>
+            <span class="choice">学科组长</span>
+            <span class="choice">行政 + 学科教师</span>
+            <span class="choice">其他角色</span>
+          </div>
+        </section>
+        <section class="panel-grid">
+          <article class="panel">
+            <div class="panel-header">
+              <h2>Initialization Sufficiency Gate</h2>
+              <span class="mode">blocking_required</span>
+            </div>
+            <div class="field-grid">
+              <div class="field"><b>role_profile</b><span class="subtle">已确认：小学美术教师</span></div>
+              <div class="field"><b>subject</b><span class="subtle">已确认：美术</span></div>
+              <div class="field"><b>semester</b><span class="subtle">待确认：本学期</span></div>
+              <div class="field"><b>grade_or_class_scope</b><span class="subtle">待确认：任教年级 / 班级</span></div>
+            </div>
+            <div class="suggestion"><span class="dot"></span><div><b>小教建议</b><br><span class="subtle">先补齐身份、学科、学期、任教范围。完成后即可展开教师动态工作台。</span></div></div>
+          </article>
+          <article class="panel">
+            <div class="panel-header">
+              <h2>三层信息结构</h2>
+              <span class="mode warn">信息分层</span>
+            </div>
+            <div class="gate">
+              <div class="gate-item blocking"><b>blocking_required</b><p class="subtle">缺失时不展开完整工作台：身份、学科、学期、年级 / 班级。</p></div>
+              <div class="gate-item recommended"><b>recommended_required</b><p class="subtle">建议填写：每周课时、班级数、校历、活动周、教材版本。</p></div>
+              <div class="gate-item precision"><b>precision_required</b><p class="subtle">后续补充：教材目录、单元序列、课题列表、评价要求、公开课安排。</p></div>
+            </div>
+          </article>
+        </section>
+        <article class="panel">
+          <div class="panel-header">
+            <h2>初始化完成后的工作台种子</h2>
+            <span class="mode">preview</span>
+          </div>
+          <ul class="mini-list">
+            <li>教学工作计划：基础信息完成后可先生成草稿</li>
+            <li>学期周历表：可生成框架，校历待复核</li>
+            <li>周工作图谱：待课务 / 活动确认后生成</li>
+            <li>今日工作项：待周图谱生成后展开</li>
+          </ul>
+        </article>
+      </section>
+      <aside class="drawer" aria-label="工作记录抽屉预览">
+        <h2>工作记录</h2>
+        <div class="record"><b>初始化开始</b><p class="subtle">小教建立本学期工作空间，先记录待确认项。</p></div>
+        <div class="record"><b>待确认</b><p class="subtle">学期、任教年级、班级范围。</p></div>
+      </aside>
+    </section>
+  </main>
+</body>
+</html>
